@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Sensitive (add any paths with secrets)
+# cursor/User/settings.json  # Uncomment if settings contain tokens

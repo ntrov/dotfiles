@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "sonarqube": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "SONARQUBE_TOKEN",
+        "-e",
+        "SONARQUBE_ORG",
+        "-e",
+        "SONARQUBE_CLOUD_URL",
+        "-e",
+        "SONARQUBE_IDE_PORT",
+        "mcp/sonarqube"
+      ],
+      "env": {
+        "SONARQUBE_ORG": "ntrov-org",
+        "SONARQUBE_CLOUD_URL": "https://sonarcloud.io",
+        "SONARQUBE_TOKEN": "1e243306950c25d0dd26d7f3c2176b6a1ff2f46e",
+        "SONARQUBE_IDE_PORT": "64121"
+      }
+    }
+  }
+}
