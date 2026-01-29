@@ -1,4 +1,4 @@
-# Dotfiles – Cursor & Neovim config backup
+# Dotfiles
 
 Git-based backup for Cursor and Neovim configs. See [this approach](https://chatgpt.com/share/697a3314-04b8-8000-902f-c340cbed0e0a) (backup config files with Git).
 
